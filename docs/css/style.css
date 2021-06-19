@@ -15,7 +15,7 @@ main {
 }
 
 #webDevelopment {
-  background-image: url(../images/paper01.png);
+  background-image: url(../docs/images/paper01.png);
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -30,7 +30,7 @@ main {
 }
 
 #audioProduction {
-  background-image: url(../images/paper02.png);
+  background-image: url(..docs//images/paper02.png);
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -45,7 +45,7 @@ main {
 }
 
 #photography {
-  background-image: url(../images/paper03.png);
+  background-image: url(../docs/images/paper03.png);
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -97,7 +97,7 @@ main {
 }
 
 #photography:hover {
-  background-image: url(../images/seattle.png);
+  background-image: url(../docs/images/seattle.png);
 }
 
 #webDevelopment:hover {
