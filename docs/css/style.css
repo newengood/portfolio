@@ -30,7 +30,7 @@ main {
 }
 
 #audioProduction {
-  background-image: url(..docs//images/paper02.png);
+  background-image: url(../docs/images/paper02.png);
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
