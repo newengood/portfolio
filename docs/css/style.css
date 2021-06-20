@@ -97,7 +97,8 @@ main {
 }
 
 #photography:hover {
-  background-image: url(../images/seattle.png);
+  background-image: url(../images/newengood.gif);
+  background-size:cover;
 }
 
 #webDevelopment:hover {
