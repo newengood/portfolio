@@ -263,7 +263,7 @@ input {
 #webDevelopment:hover {
   text-shadow: 2px 2px 20px white;
   border-color:white;
-  box-shadow: 5px 10px 30px white;
+  box-shadow: 5px 5px 20px white;
 }
 
 #audioProduction:hover {
