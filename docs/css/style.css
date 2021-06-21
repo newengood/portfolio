@@ -113,7 +113,7 @@ a {
 
 #industry {
   font-size: small;
-  padding-left: 20px;
+  padding-left: 18px;
   padding-top: 5px;
 }
 
@@ -267,6 +267,7 @@ input {
 #webDevelopment:hover {
   text-shadow: 2px 2px 20px white;
   border-color:white;
+  box-shadow: 5px 10px 30px white;
 }
 
 #audioProduction:hover {
