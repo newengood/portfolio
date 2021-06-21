@@ -70,7 +70,7 @@ a {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  border-radius: 1%;
+  border-radius: 2%;
   width: 500px;
   height: 300px;
 }
@@ -122,6 +122,7 @@ a {
 
 #data {
   margin: 50px;
+  border-radius: 2%;
 }
 
 /* Muisc card Settings */
@@ -136,7 +137,7 @@ a {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  border-radius: 1%;
+  border-radius: 2%;
   width: 500px;
   height: 300px;
 }
@@ -164,7 +165,7 @@ a {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  border-radius: 1%;
+  border-radius: 2%;
   width: 500px;
   height: 300px;
 } 
@@ -188,7 +189,7 @@ a {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  border-radius: 1%;
+  border-radius: 2%;
   width: 500px;
   height: 300px;
 }
@@ -277,5 +278,5 @@ input {
 }
 
 .bolder:hover {
-  font-weight: bolder;
+  font-weight: bold;
 }
