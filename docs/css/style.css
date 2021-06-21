@@ -52,6 +52,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  flex-shrink: auto;
 }
 
 #nav-flex-container {
