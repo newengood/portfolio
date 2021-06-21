@@ -254,11 +254,6 @@ input {
 
 /* hovering settings */
 
-#qrcode:hover {
-  width: 130px;
-  box-shadow: 5px 5px 5px #999;
-}
-
 #photography:hover {
   background-image: url(../images/newengood.gif);
   background-size:cover;
