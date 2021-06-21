@@ -18,6 +18,7 @@ header {
   display: flex;
   flex-direction: row;
   display: block;
+  justify-content: center;
   color: white;
   padding-top: 20px;
  
@@ -38,14 +39,26 @@ a {
   text-decoration: none;
 }
 
-/* Create flexboxes */
+/* Set background color */
 
 main {
+  background-color: black;
+}
+
+/* Create flexboxes */
+
+.card-flex-container{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  background-color: black;
+}
+
+#nav-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Business card settings */
