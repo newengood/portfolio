@@ -46,8 +46,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   flex-shrink: auto;
-  background-color: #2d3436;
-  background-image: linear-gradient(360deg, #2d3436 0%, #000000 100%);
+  background-color: black;
 }
 
 #nav-flex-container {
