@@ -76,7 +76,7 @@ main {
 }
 
 #share {
-  background-color: white;
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -141,9 +141,14 @@ input {
 }
 
 #company {
+  font-size:  large;
   padding-left: 20px;
   padding-right: 0px;
   padding-bottom: 50px;
+}
+
+#industry {
+  padding-top: 5px;
 }
 
 #location {
@@ -222,9 +227,4 @@ input {
 #contact:hover {
   text-shadow: 2px 2px 20px white; 
   border-color:white;
-}
-
-img .qrcode:hover {
-  text-shadow: 2px 2px 20px white; 
-  border-color: black;
 }
