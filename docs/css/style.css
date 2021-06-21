@@ -18,7 +18,7 @@ main {
 #webDevelopment {
   background-image: url(../images/paper01.png);
   display: flex;
-  flex-wrap: wrap;
+  flex-shrink: auto;
   padding: 10px;
   margin: 50px;
   /* text-align: right; */
@@ -61,7 +61,7 @@ main {
 } 
 
 #contact {
-  background-image: url(../images/paper01.png);
+  background-image: url(../images/paper04.png);
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -91,7 +91,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color:white;
+  background-color: white;
   color: black;
   padding: 12px 20px;
   border: none;
@@ -173,6 +173,11 @@ input {
   font-size: small;
 }
 
+#audioControls {
+  padding-right: 50px;
+  padding-top: 170px;
+}
+
 #photography:hover {
   background-image: url(../images/newengood.gif);
   background-size:cover;
@@ -182,11 +187,10 @@ input {
   text-shadow: 2px 2px 20px white;
 }
 
-#audioControls {
-  padding-right: 50px;
-  padding-top: 170px;
+#audioProduction:hover {
+  text-shadow: 2px 2px 20px white; 
 }
 
-#audioProduction:hover {
+#contact:hover {
   text-shadow: 2px 2px 20px white; 
 }
