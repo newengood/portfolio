@@ -201,6 +201,7 @@ input {
 
 #industry {
   font-size: small;
+  padding-left: 15px;
 }
 #email {
   padding-left: 10px;
@@ -230,7 +231,7 @@ input {
 }
 
 #qrcode:hover {
-  width: 255px;
+  width: 130px;
   box-shadow: 5px 5px 5px #999;
 }
 
