@@ -52,7 +52,7 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  flex-shrink: auto;
+  flex-shrink: 50%;
 }
 
 #nav-flex-container {
@@ -60,6 +60,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  flex-shrink: auto;
 }
 
 /* Business card settings */
