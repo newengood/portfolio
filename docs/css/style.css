@@ -277,6 +277,9 @@ input {
   border-color:white;
 }
 
+#qrcode:hover {
+  box-shadow: 5px 5px 20px white;
+}
 .bolder:hover {
   font-weight: bold;
 }
