@@ -181,8 +181,6 @@ a {
 
 #contact {
   background-image: url(../images/paper04.png);
-  display: flex;
-  flex-wrap: wrap;
   padding:0px;
   margin: 50px;
   text-align: left;
@@ -220,12 +218,6 @@ input[type=submit]:hover {
   background-color: white;
 }
 
-form {
-  display: flex;
-  flex-direction: vertical;
-
-}
-
 #form {
   display: flex;
   flex-direction: column;
@@ -233,10 +225,18 @@ form {
   margin: 10px;
 }
 
-textarea#subject {
+textarea#message {
   height: auto;
-  width: auto;
+  width: 470px;
   resize: none;
+  text-align: top;
+}
+
+input[type=email] {
+  border:none;
+  width: 200px;
+  height: 25px;
+  margin: 6px 0px 16px;
 }
 
 input {
