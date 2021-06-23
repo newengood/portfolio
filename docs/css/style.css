@@ -10,8 +10,9 @@ what does this do? */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(../images/background.png);
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  
 }
 
 
