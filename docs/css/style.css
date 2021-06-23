@@ -9,13 +9,8 @@ what does this do? */
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* Set background */
-
-#background {
   background-image: url(../images/background.png);
-  background-size:cover;
+  background-size: cover;
 }
 
 
@@ -26,7 +21,6 @@ header {
   flex-direction: row;
   display: block;
   justify-content: center;
-  color: white;
   padding-top: 20px;
 }
 
@@ -53,7 +47,7 @@ a {
   /* flex-direction: row; replace with this line above for functionality described in homework */
   flex-wrap: wrap;
   align-items: center;
-  flex-shrink: auto;
+  flex-shrink: 1;
 }
 
 #nav-flex-container {
@@ -61,7 +55,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  flex-shrink: auto;
+  flex-shrink: 1;
 }
 
 /* Business card settings */
