@@ -68,6 +68,8 @@ a {
 
 #webDevelopment {
   background-image: url(../images/paper01.png);
+  display: flex;
+  flex-wrap: wrap;
   /* flex-grow: 2;  uncomment for main flex item 2x as large as others */
   padding: 10px;
   margin: 50px;
