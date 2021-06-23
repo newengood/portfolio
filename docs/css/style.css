@@ -271,3 +271,21 @@ input {
   font-weight: bold;
   text-shadow: 2px 2px 20px white;
 }
+
+/* Rotate cards with small screen */
+
+@media screen and (max-width: 500px) {
+  #webDevelopment, #data, #audioProduction,
+  #photography, #contact {
+    transform: rotate(90deg);
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: -65px;
+  }
+  #contact {
+    margin-bottom: 200px;
+  }
+  #nav-flex-container {
+    display: none;
+  }
+}
