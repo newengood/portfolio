@@ -9,7 +9,7 @@ what does this do? */
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: black;
+  background-image: url(../images/background.png);
 }
 
 /* flexbox header */
@@ -47,7 +47,6 @@ a {
   flex-wrap: wrap;
   align-items: center;
   flex-shrink: auto;
-  background-color: black;
 }
 
 #nav-flex-container {
@@ -243,18 +242,6 @@ input {
   width: 100px;
 }
 
-/* Qr code settings */
-
-#share {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 25px;
-  margin: 50px;
-  width: 500px;
-  height: 300px;
-} 
-
 /* hovering settings */
 
 #photography:hover {
@@ -277,9 +264,7 @@ input {
   border-color:white;
 }
 
-#qrcode:hover {
-  box-shadow: 5px 5px 20px white;
-}
 .bolder:hover {
   font-weight: bold;
+  text-shadow: 2px 2px 20px white;
 }
