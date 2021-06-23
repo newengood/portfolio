@@ -26,82 +26,84 @@ Taylor Anderson
   </head>
 
   <body>
-    <main>
-      <header>
-        <nav>
-          <ul id ="nav-flex-container">
-            <li>
-              <a class="bolder" href="#webDevelopment">|Card |</a>
-            </li>
-            <li>
-              <a class="bolder" href="#data">MLB Data Science |</a>
-            </li>
-            <li>
-            <li>
-              <a class="bolder" href="#audioProduction">Music Production |</a>
-            </li>
-            <li>
-              <a class="bolder" href="#photography">Photography |</a>
-            </li>
-            <li>
-              <a class="bolder" href="#contact">Contact |</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class ="card-flex-container">
-        <div id="webDevelopment">
-          <div id ="url">
-            <a href="https://www.newengood.com" style="color:black">www.newengood.com</a>
-          </div>
-            <div id ="name">
-              Taylor Anderson</br>
-              <p id="title">Owner</p>
+    <div id="background">
+      <main>
+        <header>
+          <nav>
+            <ul id ="nav-flex-container">
+              <li>
+                <a class="bolder" href="#webDevelopment">|Card |</a>
+              </li>
+              <li>
+                <a class="bolder" href="#data">MLB Data Science |</a>
+              </li>
+              <li>
+              <li>
+                <a class="bolder" href="#audioProduction">Music Production |</a>
+              </li>
+              <li>
+                <a class="bolder" href="#photography">Photography |</a>
+              </li>
+              <li>
+                <a class="bolder" href="#contact">Contact |</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class ="card-flex-container">
+          <div id="webDevelopment">
+            <div id ="url">
+              <a href="https://www.newengood.com" style="color:black">www.newengood.com</a>
             </div>
-            <div id="company">
-              Newengood
-              <div id="industry">
-                Productions
+              <div id ="name">
+                Taylor Anderson</br>
+                <p id="title">Owner</p>
+              </div>
+              <div id="company">
+                Newengood
+                <div id="industry">
+                  Productions
+              </div>
+            </div>
+            <div id="location">
+              Bellevue, Washington
             </div>
           </div>
-          <div id="location">
-            Bellevue, Washington
+          <div id="data">
+              <embed src="docs/images/whiff.pdf#toolbar=0" type ="application/pdf" navpanes =0 width=500px height="300px"/>
           </div>
-        </div>
-        <div id="data">
-            <embed src="docs/images/whiff.pdf#toolbar=0" type ="application/pdf" navpanes =0 width=500px height="300px"/>
-        </div>
-        <div id="audioProduction">
-          <div id="audioControls">
-            <audio id="audioPlayer" controls controlsList="nodownload"> 
-              <source src="./docs/audio/Audio10.mp3" type="audio/mpeg">
-              Your broswer does not support the audio element
-            </audio>
-          <div id="producedby">Music Produced by Newengood&copy;
+          <div id="audioProduction">
+            <div id="audioControls">
+              <audio id="audioPlayer" controls controlsList="nodownload"> 
+                <source src="./docs/audio/Audio10.mp3" type="audio/mpeg">
+                Your broswer does not support the audio element
+              </audio>
+            <div id="producedby">Music Produced by Newengood&copy;
+            </div>
           </div>
-        </div>
-        </div>
-        <div id="photography">
-          <p id ="centering">
-            Photography </br>
-              &copy; Newengood
-          </p>
-        </div>
-          <div id="contact"> 
-            <form id="form" autocomplete="off" method="POST" action="./docs/php/email.php">
-              <label for="fullName">Name:</label>
-              <input type="text" id="fullName" name="fullName" required>
-             
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-      
-              <label for="message">Message:</label>
-               <textarea id="message" name="message" maxlength="3000" placeholder="In Development" required></textarea>
-            
-              <input type="submit" value="Send">
-            </form>
           </div>
-    </main>
+          <div id="photography">
+            <p id ="centering">
+              Photography </br>
+                &copy; Newengood
+            </p>
+          </div>
+            <div id="contact"> 
+              <form id="form" autocomplete="off" method="POST" action="./docs/php/email.php">
+                <label for="fullName">Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" maxlength="3000" placeholder="In Development" required></textarea>
+              
+                <input type="submit" value="Send">
+              </form>
+            </div>
+      </main>
+    </div>
   </body>
 
 </html>
