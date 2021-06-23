@@ -268,8 +268,7 @@ input {
 }
 
 .bolder:hover {
-  font-weight: bold;
-  text-shadow: 2px 2px 20px white;
+  font-weight: bolder;
 }
 
 /* Rotate cards with small screen */
