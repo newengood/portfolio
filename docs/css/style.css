@@ -5,7 +5,7 @@ what does this do? */
   box-sizing: border-box;
 }
 
-/* Font and background color */
+/* Font and background */
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,6 +13,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
   
+}
+
+#clouds {
+  background-image: url(../images/clouds01.png);
+  background-position-x: center;
 }
 
 
