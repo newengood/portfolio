@@ -15,12 +15,6 @@ body {
   
 }
 
-#clouds {
-  background-image: url(../images/clouds01.png);
-  background-position-x: center;
-}
-
-
 /* flexbox header */
 
 header {
