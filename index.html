@@ -1,59 +1,30 @@
-<!--
-Newengood Productions
-Homework #2
-Portfolio Assignment
-Taylor Anderson
---> 
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Taylor Anderson</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./docs/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./docs/css/style.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SS3JM9DBM8"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-SS3JM9DBM8');
-    </script>
-
   </head>
   <body>
-    <div id="clouds">
-      <main>
-        <header>
-          <nav>
-            <ul id ="nav-flex-container">
-              <li>
-                <a class="bolder" href="#webDevelopment">|Card |</a>
-              </li>
-              <li>
-                <a class="bolder" href="#data">MLB Data Science |</a>
-              </li>
-              <li>
-              <li>
-                <a class="bolder" href="#audioProduction">Music Production |</a>
-              </li>
-              <li>
-                <a class="bolder" href="#photography">Photography |</a>
-              </li>
-              <li>
-                <a class="bolder" href="#contact">Contact |</a>
-              </li>
-
-            </ul>
-          </nav>
-        </header>
-        <div class ="card-flex-container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <div id="webDevelopment">
-            <div id ="url">
-              <a href="https://www.newengood.com" style="color:black">www.newengood.com</a>
+            <div id ="email">
+                <div>taylor@newengood.com</div>
             </div>
               <div id ="name">
                 Taylor Anderson</br>
@@ -65,14 +36,27 @@ Taylor Anderson
                   Productions
               </div>
             </div>
-            <div id="location">
-              Bellevue, Washington
+            <div id="github">
+              <a href="https://github.com/newengood" style="color:black">Github</a></br>
             </div>
+          <div id="linkedin">
+            <a href="www.linkedin.com/in/taylor-r-anderson " style="color:black">LinkedIn</a></br>
           </div>
-          <div id="data">
-              <iframe src="docs/images/whiff.pdf" type ="application/pdf" width=500px height="300px">
-              </iframe>
-          </div>
+           </div>
+        </div>
+      <div class="carousel-item">
+        <div id="data">
+          <iframe src="docs/images/whiff.pdf" type ="application/pdf" width=500px height="300px">
+          </iframe>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div id="resume">
+          <iframe src="docs/images/resume.pdf" type ="application/pdf" width=500px height="300px">
+          </iframe>
+        </div>
+      </div>
+        <div class="carousel-item">
           <div id="audioProduction">
             <div id="audioControls">
               <audio id="audioPlayer" controls controlsList="nodownload"> 
@@ -83,28 +67,47 @@ Taylor Anderson
             </div>
           </div>
           </div>
+       </div>
+       <div class="carousel-item">
           <div id="photography">
             <p id ="centering">
               Photography </br>
                 &copy; Newengood
             </p>
           </div>
-            <div id="contact"> 
-              <form id="form" autocomplete="off" method="POST" action="./docs/php/email.php">
-                <label for="fullName">Name:</label>
-                <input type="text" id="fullName" name="fullName" required>
-              
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" maxlength="3000" placeholder="In Development" required></textarea>
-              
-                <input type="submit" value="Send">
-              </form>
+        </div>
+        <div class="carousel-item">
+          <div id="project">
+            <div id ="projectTitle">Signs and Events Project
             </div>
-      </main>
-  </div>
+            <div id ="projectLinks">
+              <a href="https://jheckel-dev.github.io/signs-and-events/" style="color:#BC986A;">Deployed Application</a></br>
+              <a href="https://github.com/jheckel-dev/signs-and-events" style="color:#BC986A;">Github Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div id="weather">
+          <div id ="applicationLinks">
+            <a href="https://newengood.github.io/homework-06-weather-dashboard/" style="color:white">Deployed Application</a></br>
+            <a href="https://github.com/newengood/homework-06-weather-dashboard" style="color:white">Github Repository</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
   </body>
 
 </html>
