@@ -1,8 +1,7 @@
 # Taylor Anderson
 # Homework 07: Portfolio
 
-![Screenshot of grader friendly version](./docs/images/screenshot02.png)
-![Screenshot of UX version (deployed)](./docs/images/screenshot01.png)
+![Screenshot of deployed application](./docs/images/screenshot.png)
 
 ## Link to deployed application
 
