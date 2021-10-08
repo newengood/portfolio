@@ -16,6 +16,8 @@
 
 ## Usage
 
+[Deployment](https://newengood.github.io/portfolio/)
+
 ![usage](./docs/files/portfolio.png)
 
 ## License
@@ -31,7 +33,7 @@
 
 * Contact information for questions:
 
-* https://github.com/newengood
+* taylor@newengood.com
 
 
   
