@@ -6,11 +6,11 @@ function Form() {
 
   // set state props
   const [email, setEmail] = useState('');
-  const [userName, setUserName] = useState('');
+  const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-  // Set form input values
+  // Update state based on form input
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -18,25 +18,26 @@ function Form() {
 
     if (inputType === 'email') {
       setEmail(inputValue);
-    } else if (inputType === 'userName') {
-      setUserName(inputValue);
+    } else if (inputType === 'name') {
+      setName(inputValue);
     } else {
       setMessage(inputValue);
     }
   };
 
-  // Validate email and alert user
+  // Validate email and alert user on submit
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+    if (!validateEmail(email) || !name) {
+      setErrorMessage('Email or name is invalid');
       return;
     }
 
-    alert(`Hello ${userName}`);
+    alert(`Hello ${name}`);
 
-    setUserName('');
+    // Reset States
+    setName('');
     setMessage('');
     setEmail('');
   };
@@ -55,11 +56,11 @@ function Form() {
             placeholder="email"
           />
           <input
-            value={userName}
-            name="userName"
+            value={name}
+            name="name"
             onChange={handleInputChange}
             type="text"
-            placeholder="username"
+            placeholder="name"
           />
           <input
             value={message}
@@ -72,7 +73,7 @@ function Form() {
         </form>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="ml-5 error-text">{errorMessage}</p>
           </div>
         )}
       </div>
