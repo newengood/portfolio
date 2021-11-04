@@ -3,9 +3,9 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div className="portfolio">
-      <Home />
-    </div>
+      <div className="portfolio">
+        <Home />
+      </div>
   );
 }
 
