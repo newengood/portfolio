@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
 import Project from './Project';
 
+// Render Portfolio
 const Portfolio = () => {
-
   const title = "";
   const githubLink = "";
   const deploymentLink = "";

@@ -1,6 +1,7 @@
 import React from 'react';
 
-function NavTabs({ currentTab, handleTabChange }) {
+// Set state based on tab click
+function NavTabs({ handleTabChange }) {
   return (
     <ul className="container flex-row justify-space-between-lg justify-center align-center">
       <h1 className="m-0">
