@@ -18,16 +18,15 @@
 
 [Deployment](https://newengood.github.io/portfolio/)
 
-![usage](./docs/files/portfolio.png)
+![usage](./docs/portfolio.png)
 
 ## License
   
 * MIT
-  
 
 ## Test Instructions
 
-* Fork the repository, create tests, then submit an issue.
+* Fork the repository, create tests, submit an issue.
   
 ## Questions
 
