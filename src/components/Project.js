@@ -1,7 +1,7 @@
 import React from 'react';
-import YourForum from '../images/your-forum.png';
-import TechBlog from '../images/tech-blog.png';
-import FitnessTracker from '../images/fitness-tracker.png';
+import YourForum from '../docs/your-forum.png';
+import TechBlog from '../docs/tech-blog.png';
+import FitnessTracker from '../docs/fitness-tracker.png';
 
 // Render project data
 const Project = ({ title, githubLink, deploymentLink, imageLink }) => {
