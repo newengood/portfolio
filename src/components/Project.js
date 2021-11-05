@@ -10,7 +10,7 @@ const Project = ({ title, githubLink, deploymentLink, imageLink }) => {
       <div class='card'>
         <div class='card-header'>{title} <h3>Your Forum</h3>
           <div class='card-body'>{imageLink} <img src={YourForum} alt="your-forum"></img>
-            <div class='card-footer'>{deploymentLink} <a href="https://pacific-journey-91002.herokuapp.com/">Deployment</a><br></br>
+            <div class='card-footer'>{deploymentLink} <a href="https://tranquil-lowlands-18120.herokuapp.com/">Deployment</a><br></br>
               {githubLink} <a href="https://github.com/newengood/your-forum">Github Repository</a>
             </div>
           </div>
