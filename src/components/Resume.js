@@ -1,5 +1,4 @@
-import 
-myResume from '../docs/Taylor-R-Anderson.pdf'
+import MyResume from '../docs/Taylor-R-Anderson.pdf';
 
 // Render resume
 const Resume = () => {
