@@ -16,7 +16,7 @@
 
 ## Usage
 
-[Deployment](https://newengood.github.io/portfolio/)
+[Deployment](https://newengood.com/)
 
 ![usage](./docs/portfolio.png)
 

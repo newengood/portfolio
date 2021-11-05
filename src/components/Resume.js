@@ -1,4 +1,4 @@
-import Resume_ from '../images/resume.pdf'
+import Resume_ from '../images/Taylor-R-Anderson.pdf'
 
 // Render resume
 const Resume = () => {

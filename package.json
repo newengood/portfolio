@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage:": "https://newengood.github.io/portfolio/",
+  "homepage:": "https://newengood.com/",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
